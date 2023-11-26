@@ -1,0 +1,344 @@
+body{
+    background-color: black;
+}
+ .mainfirstdiv{ 
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+    height: 100%; 
+    color: black; 
+    background-color: black;
+ }
+.hea1{
+    color: black;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.namehead{
+    
+    font-weight: bolder;
+    color: yellow;
+    font-style: italic;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.secondh1{
+    font-style: italic;
+    font-size: 100px;
+    font-weight: bolder;
+    display: inline;
+    border: 4px 4px 4px 4px solid blue;
+    border-radius: 54px   5px ;
+    background-color: black;
+    color: blue;
+}
+.card{
+    background-color: black;
+    border: none;
+    border-radius:  20px;
+    margin-bottom: 30px;
+}
+.btn12 {
+    transition: transform 0.3s ease; 
+    border-radius:  10px;
+    border: 10px 10px 10px 10px solid yellow ;
+}
+.mainbtn{
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: blue;
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+}
+.mainbtn:hover{
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: blue;
+    color: whitesmoke;
+    box-shadow: 0px 0px 15px yellow;
+}
+  .btn12:hover{
+    cursor: pointer;
+    transform: translateY(-5px); 
+}
+  .maincars1{
+    margin-bottom: 0px;
+    margin-left: none;
+    width: 100%;
+    background-color: black  ;
+    margin-top: 2px;
+    border: 4px 4px 4px 4px solid blue;
+    border-radius: 30px 30px ;
+    color: blue;
+}
+   .container12{
+    padding: none;
+    align-items: center;
+    background-color: black;
+    margin-top: 400px;   
+    border-radius: 930px 50px ;
+    height: 550px;
+    padding-left: 10px; 
+       padding-top: 25px;
+    border: none;
+    border-radius: 20px 20px;
+} 
+.car2main{
+    color: black;
+    margin-top: 1px;
+} 
+.img1{
+    border: none;
+    border-radius: 10px 70px;
+}
+.categeroy4x4{
+    background-color: black;
+    text-decoration: none;
+}
+.btn132:hover{
+    cursor: pointer;
+    transform: translateY(-5px); 
+    background-color: blue;
+    font-style: italic;
+    color: yellow;
+    box-shadow: 0px 0px 15px yellow;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.btn1323:hover{
+    cursor: pointer;
+    transform: translateY(-5px); 
+    background-color: blue;
+    font-style: italic;
+    color: yellow;
+    box-shadow: 0px 0px 15px yellow;
+}
+.btn1323{
+    transition: transform 0.3s ease; 
+    border-radius:  10px;
+    border: 10px 10px 10px 10px solid yellow ;
+    background-color: black;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #007bff; 
+}
+.btn132{
+    transition: transform 0.3s ease; 
+    border-radius:  10px;
+    border: 10px 10px 10px 10px solid yellow ;
+    background-color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #007bff; 
+}
+.btn13:hover{
+    cursor: pointer;
+    transform: translateY(-10px); /* Move the element up when hovered */
+    background-color: blue;
+    font-style: italic;
+    color: yellow;
+    box-shadow: 0px 0px 15px yellow;
+}
+.btn13{
+    transition: transform 0.3s ease; 
+    border-radius:  10px;
+    border: 10px 10px 10px 10px solid yellow ;
+    background-color: black;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #007bff;
+    margin-bottom: 0px;
+}
+.a{
+    text-decoration: none;
+}
+.samepara{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: xx-large;
+}
+.heading4x4{
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+.imgwidth{
+    width: 100%; 
+    height: 100%;
+} 
+.imgwidth2{
+    margin-bottom: -6%;
+    width: 100%; 
+}
+
+
+@media screen and  (max-width: 320px) {
+    .hero h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    .btn132{
+        text-align: center;
+     margin-top: 0px;
+        padding: 0px;
+        width:100%;
+    }
+        
+    
+.btn1323{
+    text-align: center;
+ margin: 0px;
+    padding: 0px;
+    width:100%;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 450px){
+    .hero h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    .btn132{
+        font-size: 20px;
+        text-align: center;
+        font-size: larger;
+        margin-top: 5%;
+        padding: 5px;
+        width:60%;
+    }
+        
+    
+.btn1323{
+    text-align: center;
+    font-size: larger;
+    margin-top: 66%;
+    padding: 5px;
+    width:60%;
+}
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 650px){
+    .hero h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+       
+} 
+
+ @media screen and (min-width: 768px) and (max-width: 1025px) {
+    .hero h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .btn132{
+        text-align: center;
+        margin-top: 0px;
+        padding: 0px;
+        width:90%;
+        height: 50%;
+    }
+
+ } 
+
+ @media screen and (min-width: 1026px)  {
+   
+.hero h1 {
+    font-size: 20px;
+    margin: 0;
+}
+.hero p {
+    font-size: 16px;
+}
+.btn1323{
+    margin-top: 9%;
+}
+ } 
+.cards1{
+    border-radius: 20px;
+}
+.picedit{
+    border-radius: 10px ;
+}
+.Clientsdiv{
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 2px solid blue;
+}
+.Clientsdiv:hover{
+    box-shadow: 0px 0px 35px blue;
+}
+.Clientshead{
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 50px;
+}
+.div4x4:hover{
+    box-shadow: 0px 0px 35px blue;
+}
+.div4x4{
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-left: none;
+    width: 100%;
+    background-color: black  ;
+    border: 4px 4px 4px 4px solid blue;
+    border-radius: 30px 30px ;
+    color: blue;
+    text-align: center;
+    align-items: center;
+    color: #007bff; 
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.divpic{
+    display: flex;
+    text-align: left;
+    align-items: last baseline;
+}
+.divpicoverlay{
+    width: 50%;
+    height: 100%;
+}
+.hea4x4{
+    border-bottom: none;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    padding: 5px;
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerdesign{
+    text-align: center;
+}
